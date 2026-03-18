@@ -1,0 +1,213 @@
+*{
+   font-family: sans-serif;
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+body{
+   width: 1008px;
+   margin:  100px auto;
+   border: 4px solid black;
+}
+
+header{
+   background-color: antiquewhite;
+   text-align: center;
+}
+
+nav{
+   padding: 20px;
+}
+
+nav a{
+   margin-right: 10px;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   font-size: large;
+   
+}
+
+nav a:hover{
+   color: blue;
+   text-decoration:underline;
+}
+article{
+   border-top: 4px solid;
+   position: relative
+}
+
+.header-article{
+   padding: 20px;
+}
+
+.product{
+   margin-bottom: 30px;
+}
+
+p{
+   margin-bottom: 20px;
+}
+.price{
+   font-size: 25px;
+   margin-bottom: 5px;
+}
+
+.shipping{
+   text-transform: uppercase;
+   color: #4f4f4f;
+   font-weight: bold;
+}
+
+.more-info{
+   color: black;
+}
+.more-info:hover{
+   text-decoration: none;
+}
+
+/*Color Picker*/
+
+.color-picker{
+   margin-top: 30px;
+}
+
+.color-picker .black{
+   display: inline-block;
+   background-color: black;
+   margin-left: 10px;
+   width: 30px;
+   height: 30px;
+}
+.color-picker .blue{
+   display: inline-block;
+   background-color: blue;
+   margin-left: 10px;
+   width: 30px;
+   height: 30px;
+}
+.color-picker .red{
+   display: inline-block;
+   background-color: red;
+   margin-left: 10px;
+   width: 30px;
+   height: 30px;
+}
+.color-picker .yellow{
+   display: inline-block;
+   background-color:darkgoldenrod;
+   margin-left: 10px;
+   width: 30px;
+   height: 30px;
+}
+
+.color-picker .green{
+   display: inline-block;
+   background-color:limegreen;
+   margin-left: 10px;
+   width: 30px;
+   height: 30px;
+}
+
+.color-picker .brown{
+   display: inline-block;
+   background-color:saddlebrown;
+   margin-left: 10px;
+   width: 30px;
+   height: 30px;
+}
+
+h3{
+   margin-bottom: 15px;
+}
+
+.details{
+   list-style-type:square;
+   margin-left: 20px;
+   margin-bottom: 10px;
+}
+
+li{
+   margin-bottom: 15px;
+}
+
+button{
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   text-transform: uppercase;
+   border-top:4px solid black;
+   width: 100%;
+   padding: 15px;
+}
+
+aside{
+   width: 100;
+}
+
+button:hover{
+   background-color: white;
+   color:black;
+   font-weight: bold;
+}
+
+.sale{
+   display: inline-block;
+   position: absolute;
+   top: 0px;
+   left: -40px;
+   width: 80px;
+   height: 40px;
+   background-color:#ec2f2f;
+   font-size: 15px;
+   font-weight: bolder;
+   text-align:center;
+   align-content: center;
+   letter-spacing: 4px;
+   color: #fff;
+}
+
+/*Floats*/
+
+.product img{
+   float: left;
+   width: 250px;
+}
+
+.listing{
+   float: right;
+   width: 750px;
+
+}
+
+.listing section{
+   float: left;
+   width: 400px;
+   height: 250px;
+   padding: 30px;
+}
+
+.listing aside{
+   float: right;
+   width: 350px;
+   padding: 30px;
+}
+
+.pricing{
+   padding-bottom: 10px;
+}
+
+.pricing .price{
+   float: left;
+}
+.pricing .shipping{
+   float:right;
+}
+
+.clearfix::after{
+   clear: both;
+   content:'';
+   display: block;
+}
